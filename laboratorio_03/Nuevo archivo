@@ -1,0 +1,28 @@
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+#include <math.h> 
+
+int main(void) 
+
+{
+    
+    double a = 140.0;
+    double b = 4.0;
+    double c = 8.0;
+    double d = 7.0;
+    double y;
+
+    
+    double denominador_interno = pow(c, d); // c elevado a la d
+    double numerador_interno = a * b;
+    
+    y = 1.0 / sqrt(numerador_interno / denominador_interno);
+
+   
+    printf("Los valores son: a=%.0f, b=%.0f, c=%.0f, d=%.0f\n", a, b, c, d);
+    printf("El resultado de y es: %e\n", y);
+
+    return 0;
+}

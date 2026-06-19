@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="integrador1.vcxproj" Id="712308ad-2f69-41b9-bf50-647feb91f45e" />
+</Solution>
